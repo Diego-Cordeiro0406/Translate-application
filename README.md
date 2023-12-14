@@ -1,10 +1,37 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+
+# Translate project
+
+Aplicação python de tradução utilizando server side rendering(SSR)
+
+
+## Funcionalidades
+
+- Traduzir palavras para mais de 130 idiomas
+- Visualizar o historico de traduções
+- Inverter a tradução
+
+
+## Stack utilizada
+
+**Front-end:** Html e CSS
+
+**Back-end:** Python, Flask e MongoDB
+
+
+## Instalação
+
+Clonando o repositório Translate-project
+
+```bash
+  git clone git@github.com:Diego-Cordeiro0406/Translate-application.git
+  cd Translate-project
+```
+Certifique-se de ter o Docker e Docker-compose instalado no seu dispositivo, Em seguida rode o seguinte comando no terminal
+
+```bash
+  docker-compose up translate
+```
+    
+## Screenshots
+
+![App Screenshot](src/views/static/images/traduzo.png)
