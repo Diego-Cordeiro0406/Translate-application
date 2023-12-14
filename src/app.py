@@ -2,6 +2,7 @@ from flask import Flask
 from controllers.admin_controller import admin_controller
 from controllers.language_controller import language_controller
 from controllers.history_controller import history_controller
+from run_seeds import seed_language, seed_user
 
 from os import environ
 from waitress import serve
@@ -25,3 +26,5 @@ def start_server(host="0.0.0.0", port=8000):
 
 if __name__ == "__main__":
     start_server()
+    seed_language()
+    seed_user()
